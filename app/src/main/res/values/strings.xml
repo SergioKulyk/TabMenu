@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TabMenuTest</string>
+
+    <!-- Titles for TabMenu -->
+    <string name="calendar_title">calendar</string>
+    <string name="home_title">home</string>
+    <string name="chat_title">chat</string>
+    <string name="match_title">match</string>
+    <string name="profile_title">profile</string>
+
+</resources>
