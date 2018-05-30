@@ -5,10 +5,4 @@
     android:layout_height="match_parent"
     tools:context=".fragments.ProfileFragment">
 
-    <TextView
-        android:id="@+id/tv_profile"
-        style="@style/CategoryTab"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
 </FrameLayout>
