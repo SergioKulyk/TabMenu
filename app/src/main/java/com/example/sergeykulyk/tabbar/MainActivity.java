@@ -40,15 +40,14 @@ public class MainActivity extends AppCompatActivity {
 
         mTabLayout.setupWithViewPager(viewPager);
         setIconForTabLayout();
-
     }
 
     private void setIconForTabLayout() {
         Objects.requireNonNull(mTabLayout.getTabAt(0)).setIcon(R.drawable.ic_home);
-        Objects.requireNonNull(mTabLayout.getTabAt(1)).setIcon(R.drawable.ic_home);
-        Objects.requireNonNull(mTabLayout.getTabAt(2)).setIcon(R.drawable.ic_home);
-        Objects.requireNonNull(mTabLayout.getTabAt(3)).setIcon(R.drawable.ic_home);
-        Objects.requireNonNull(mTabLayout.getTabAt(4)).setIcon(R.drawable.ic_home);
+        Objects.requireNonNull(mTabLayout.getTabAt(1)).setIcon(R.drawable.ic_calendar);
+        Objects.requireNonNull(mTabLayout.getTabAt(2)).setIcon(R.drawable.ic_match);
+        Objects.requireNonNull(mTabLayout.getTabAt(3)).setIcon(R.drawable.ic_chat);
+        Objects.requireNonNull(mTabLayout.getTabAt(4)).setIcon(R.drawable.ic_profile);
     }
 
 }
